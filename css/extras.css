@@ -41,33 +41,32 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 }
 
 .nav-txt-admin li:hover{
-    border-bottom: 2px solid #5cc3dc;
+    border-bottom: 2px solid rgba(66, 152, 190, 0.27);
     cursor: default;
 }
 
 .nav-menu-admin{
     padding: 0 12px;
-    border-bottom: 2px solid #5cc3dc;
+    border-bottom: 2px solid #3084aa;
     transition: 0.5s;
     cursor: pointer;
-    background: rgb(245, 245, 245);
-    color: #969696;
+    background: #3084aa;
+    color: #f5f5f5;
 }
 
 
 .nav-menu-admin:hover{
     color: #797979;
-    border-color: #2196F3;
+    border-color: #3084aa;
     transition: 0.5s;
-    background: #d8d8d8;
+    background: #f1f1f1;
 }
 
-
 .menu-user-nav{
-    background: #e2e2e2;
+    background: #4b92b2;
     display: inline-flex;
     padding: 0;
-    color: #3d909c;
+    color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px rgba(193, 193, 193, 0.08);
     text-transform: uppercase;
@@ -75,7 +74,7 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 56px!important;
 }
 
-.menu-user-nav i{color: #5cc3dc;}
+.menu-user-nav i{color: #FFF;}
 
 .show-m{ 
     display: none;
@@ -156,7 +155,86 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     margin: 8px 0;
 }
 
+
+/* Login y registro */
+
+.cont-login{
+    padding: 1em!important;
+    color: #9e9e9e;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+    margin: 0 auto;
+    background: #FFF;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.line{
+    margin-top: 5px;
+    margin-bottom:10px;
+    display: block;
+    border-top: none;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.line-lg{
+    margin-top: 20px;
+    margin-bottom:10px;
+    display: block;
+    border-top: none;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.line-spec{
+    margin-top: 5px;
+    margin-bottom:20px;
+    display: block;
+    border-top: none;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+
+.mrg-btn{
+    margin-top:10px;
+}
+
+
+.nav-back{
+    margin-left: 10px;
+    font-size: 2.5em!important;
+    background: #4195a2;
+    padding: 0 10px;
+}
+
 /* Especiales */
+
+.st-subtitle{
+    width: 100%;
+    text-align: center;
+    padding: 0.8em;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: #949494;
+    background: #f5f5f5;
+    border-bottom: 2px solid #5cafdc;
+}
+
+.btn-complete{
+    text-transform: capitalize!important;
+    letter-spacing: normal;
+    width:100%;
+}
+
+.btn-forms{background: #4195a2;}
+
+    /* Pantalla especial 1 */
+
+    @media only screen and (max-width: 800px) {
+        .info_cont{
+            display:none;
+        }
+    }
 
     /* Pantalla mediana */
 
@@ -164,7 +242,10 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
         .show-m{
             display: block;
         }
-        
+
+        .title_date{
+            display: none;
+        }
     }
 
     /* Pantalla pequeña */
@@ -176,5 +257,9 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
         
         .menu-user-nav{
             height: 56px!important;
+        }
+
+        .info_cont{
+            display:block;
         }
     }
