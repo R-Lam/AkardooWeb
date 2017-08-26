@@ -65,6 +65,19 @@ body{
     margin-bottom: 0.5em;
 }
 
+.title_secc{
+    text-align: center;
+    color: #2d7799;
+}
+
+.full_cont{
+    padding: 0.5em 0 0.5em 0;
+    background: #f1f1f1;
+    border-bottom: 3px solid #4e98b9;
+}
+
+.txt_italic{font-style:italic;}
+
 /* Blog */
 
 .st_title{
@@ -82,6 +95,7 @@ body{
     text-transform: uppercase;
 }
 
+.title_nick{color:#FFF;}
 .st_green{background: #50be36;border: 1px solid #36a91b;}
 .date_pink{color:#df588a};
 

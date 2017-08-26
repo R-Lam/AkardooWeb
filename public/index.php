@@ -21,8 +21,8 @@
                         <div class="arrow"><i class="material-icons">play_arrow</i></div>
                         <div class="title_right">
                             <span class="title_date right tooltipped" data-position="top" data-tooltip="23/08/2017"><i class="material-icons">date_range</i></span>
-                            <span class="title_nick">Actualización de prueba en el 23 de agosto de 2017</span><br>
-                        </div>
+                            <a href="/public/blog.php" clasS="title_nick"><span class="">Actualización de prueba en el 23 de agosto de 2017</span></a><br>
+                            </div>
                     </div>
                     <!-- Entrada al blog en pantallas pequeñas -->
                     <div class="cont_blog">
@@ -51,7 +51,7 @@
                         <div class="arrow"><i class="material-icons">play_arrow</i></div>
                         <div class="title_right">
                             <span class="title_date right tooltipped" data-position="top" data-tooltip="23/08/2017"><i class="material-icons">date_range</i></span>
-                            <span class="title_nick">Actualización de prueba en el 23 de agosto de 2017</span><br>
+                            <a href="/public/blog.php" clasS="title_nick"><span class="">Actualización de prueba en el 23 de agosto de 2017</span></a><br>
                         </div>
                     </div>
                     <!-- Entrada al blog en pantallas pequeñas -->
