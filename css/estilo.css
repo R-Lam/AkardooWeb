@@ -82,6 +82,9 @@ body{
     text-transform: uppercase;
 }
 
+.st_green{background: #50be36;border: 1px solid #36a91b;}
+.date_pink{color:#df588a};
+
 .title_blog{
     float: left;
     width: 100%;
@@ -100,13 +103,6 @@ body{
 .s_avatar_img{
     width:56px;
     height:56px;
-    /*
-    padding: 2px;
-    background: #000;
-    border:1px solid #000;
-    border-left: 3px solid #000;
-    border-radius:3px;
-    */
 }
 
 .arrow{
@@ -181,6 +177,65 @@ body{
 .info_cont{
     margin-top: 8px;
     font-size: 13px;
+}
+
+
+/* Comentarios */
+
+.title_comments{
+    font-weight: bold;
+    color: #e05286;
+}
+
+.avatar_comments{
+    position: absolute;
+    width: 48px;
+    border: 1px solid #f789b1;
+    border-left: 3px solid #e05286;
+    border-radius: 5px 0 0 5px;
+    height: 48px;
+    overflow: hidden;
+    left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cont_comments{
+    padding: 10px;
+    max-width: 85%;
+    margin-top: 5px;
+    word-wrap: break-word;
+    margin-left: 5px;
+    border-left: 2px solid #ef7ca6;
+}
+
+.publ_comment{
+    margin: 0 !important;
+}
+
+.pub_commt{
+    border-color: #49a9d4;
+    color: #49a9d4;
+}
+
+.pub_user{
+    border-color: #58b308;
+    color: #58b308;
+}
+
+.pub_user img{
+    border-color: #58b308;
+    color: #58b308;
+}
+ 
+.pub_user span{
+    color: #58b308!important;
+}
+
+.btn_c{
+    background-color: #349fcf!important;
+    font-size: 14px;
+    text-transform: capitalize;
 }
 
 /* Panel derecho */
