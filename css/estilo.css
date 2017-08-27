@@ -51,7 +51,7 @@ body{
 /* Encabezado */
 
 .nav_home{
-    background: rgb(73, 169, 212);
+    background: #0098ca;
     box-shadow: none!important;
     border-bottom: 2px solid #368aaf;
 }
@@ -117,7 +117,7 @@ body{
 }
 
 .st_text{
-    background: #60cee9;
+    background: #21b3e3;
     border: 1px solid #3ea9c4;
     font-weight: bold;
     padding: 8px 20px;
@@ -161,7 +161,7 @@ body{
 .arrow i{color:#f5f5f5;}
 
 .title_right{
-    background: #58bfd8;
+    background: #1eb9e5;
     border: 1px solid #50abc2;
     padding: 1em;
     color: #FFF;
