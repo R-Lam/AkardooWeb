@@ -14,7 +14,39 @@ body{
     margin: 8px 0 16px;
 }
 
+.info-nav{
+    padding: 0.8em;
+    background: #dcedff;
+    color: #4898ec;
+    text-align: center;
+}
+
 .v-middle{vertical-align: middle;}
+.top-0em{margin-top:0.5em}
+.top-1em{margin-top:1.5em}
+.top-07em{margin-top: 0.7em;}
+.bottom-1em{margin-bottom:1.5em}
+.ptop-1em{margin-top:1.5em}
+.pbottom-1em{margin-bottom:1.5em!important}
+.txt-bold{font-weight: bold}
+.padding-z{padding: 0!important}
+.margin-z{margin: 0!important} 
+.margin-a{margin: auto!important}
+.link-simulado{cursor:pointer;}
+.cont-100{width:100%;}
+.cont-100-f{width:100%!important;}
+.no-float{float:none!important;}
+.txt-italic{font-style:italic;}
+
+.btn-normal {
+    text-transform: capitalize!important;
+    letter-spacing: normal;
+}
+
+.btn-normal-t{
+    text-transform: initial!important;
+    letter-spacing: normal;
+}
 
 /* Encabezado */
 
