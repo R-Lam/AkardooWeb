@@ -18,10 +18,11 @@
 <header>
 
 <div class="nav_full">
-    <nav class="nav_home">
-      <div class="menu_content">
-        <div class="nav-wrapper">
-            <a href="/public/index.php" class="brand-logo"><span class="logo_ark transition_s5"></span></a>
+    <nav class="cont_p_logo">
+        <div class="v-align">
+          <a href="/public/index.php" class="brand-logo center"><span class="logo_ark transition_s5"></span></a>
+          <a href="" class="links_header">¡Juega con nosotros! IP: mc.akardoo.com</a>
+          <a href="" class="links_header right amber darken-1">¡Visita nuestra tienda!</a>          
         </div>
     </nav>
     <!-- Submenu -->

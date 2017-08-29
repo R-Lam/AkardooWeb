@@ -21,6 +21,7 @@ body{
     text-align: center;
 }
 
+.v-align a{/* RESERVADO */}
 .v-middle{vertical-align: middle;}
 .top-0em{margin-top:0.5em}
 .top-1em{margin-top:1.5em}
@@ -51,9 +52,10 @@ body{
 /* Encabezado */
 
 .nav_home{
-    background: #0098ca;
+    background: rgba(0, 152, 202, 0.24);
     box-shadow: none!important;
-    /*border-bottom: 2px solid #368aaf;*/
+    border-bottom: 1px solid #368aaf;
+    background-image: url(/img/background_menu_test_bg.png);    
 }
 
 .header_wrapper{
@@ -62,28 +64,44 @@ body{
 }
 
 .logo_ark{
-    background-image: url(../img/logo_header.png);
+    background-image: url(/img/logo_header.png);
     background-repeat: no-repeat;
     display: inline-block;
-    width: 128px;
-    margin: 0.3em;
+    width: 180px;
+    margin-top: 1.6em;
     background-size: 90%;
     cursor: pointer;
     vertical-align: middle;
-    height: 82px;
+    height: 112px;
 }
 
 .logo_menu{
-    background-image: url(../img/menu_logo.png);
+    background-image: url(/img/menu_logo.png);
     width: 170px;
     height: 70px;
     margin: -0.4em;
     background-size: 100%;
 }
 
+.cont_p_logo{
+    height: 200px!important;
+    background: #FFF;
+    background-image: url(/img/header.png);
+    background-size: 100%;  
+}
+
 .principal{
     width:90%;
     margin: 0 auto;
+}
+
+.links_header{
+    padding: 0 10px;
+    float: left;
+    font-weight: bold;
+    margin: 4.5em;
+    border-radius: 10px;
+    background: #E91E63;
 }
 
 /* Contenedores */
@@ -114,14 +132,18 @@ body{
 
 .st_title{
     display: inline-block;
+    width: 108%;
 }
 
 .st_text{
-    background: #21b3e3;
+    background-image: url(/img/background_menu_test_bg.png);        
+    width: 100%;
+    background-color: #21b3e3;
+    background-blend-mode: hard-light;
     border: 1px solid #3ea9c4;
     font-weight: bold;
-    padding: 8px 20px;
-    margin-left: -40px;
+    padding: 15px 25px;
+    margin-left: -35px;
     color: #FFF;
     float: left;
     text-transform: uppercase;
