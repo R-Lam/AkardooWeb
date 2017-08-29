@@ -53,7 +53,7 @@ body{
 .nav_home{
     background: #0098ca;
     box-shadow: none!important;
-    border-bottom: 2px solid #368aaf;
+    /*border-bottom: 2px solid #368aaf;*/
 }
 
 .header_wrapper{

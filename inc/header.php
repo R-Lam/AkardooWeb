@@ -16,16 +16,22 @@
 </head>
 
 <header>
-  <div class="navbar-fixed">
-      <nav class="nav_home">
+
+<div class="nav_full">
+    <nav class="nav_home">
+      <div class="menu_content">
+        <div class="nav-wrapper">
+            <a href="/public/index.php" class="brand-logo"><span class="logo_ark transition_s5"></span></a>
+        </div>
+    </nav>
+    <!-- Submenu -->
+    <nav class="nav_home">
       <div class="menu_content">
         <div class="nav-wrapper">
             <span data-activates="slide-out" class="button-collapse nav-menu-admin tooltipped" data-position="bottom" data-delay="375" data-tooltip="Navegación"><i class="material-icons">menu</i></span>
             <a class="dropdown-button show-m right menu-user-nav margin_a" href="/public/productos" data-activates="dropdown1"><img class="avatar-menu" src="/img/avatars/default.png"><i class="material-icons menu-dps right margin_z">arrow_drop_down</i></a></li>
-            <a href="/public/index.php" class="brand-logo"><span class="logo_ark transition_s5"></span></a>
             <!-- Menu dinamico -->
             <ul id="nav-mobile" class=" hide-on-med-and-down right nav-txt-admin">
-              
                 <span style="float:left"><img class="avatar-menu" src="/img/avatars/default.png"></span>
                 <li class="nav-txt-admin-av">MegaZeroxs</li>
                 <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Inicio"><i class="material-icons">home</i></a></li>
@@ -35,7 +41,7 @@
             </ul>
         </div>
      </nav>
-    </div>
+</div>
 
     <!-- Menú usuario -->
     <ul id="dropdown1" class="dropdown-content">
