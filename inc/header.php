@@ -21,8 +21,8 @@
     <nav class="cont_p_logo">
         <div class="v-align">
           <a href="/public/index.php" class="brand-logo center"><span class="logo_ark transition_s5"></span></a>
-          <a href="" class="links_header">¡Juega con nosotros! IP: mc.akardoo.com</a>
-          <a href="" class="links_header right amber darken-1">¡Visita nuestra tienda!</a>          
+          <a href="" class="links_header lk_ip"></a>
+          <a href="" class="links_header right lk_td amber darken-1"></a>          
         </div>
     </nav>
     <!-- Submenu -->
@@ -33,7 +33,7 @@
             <a class="dropdown-button show-m right menu-user-nav margin_a" href="/public/productos" data-activates="dropdown1"><img class="avatar-menu" src="/img/avatars/default.png"><i class="material-icons menu-dps right margin_z">arrow_drop_down</i></a></li>
             <!-- Menu dinamico -->
             <ul id="nav-mobile" class=" hide-on-med-and-down right nav-txt-admin">
-                <span style="float:left"><img class="avatar-menu" src="/img/avatars/default.png"></span>
+                <span style="float:left"><img class="avatar-menu" src="/img/avatars/blog_face.png"></span>
                 <li class="nav-txt-admin-av">MegaZeroxs</li>
                 <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Inicio"><i class="material-icons">home</i></a></li>
                 <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Soporte/Mensajes"><i class="material-icons">forum</i></a></li>
@@ -78,13 +78,15 @@
         <li class="opciones-nav"><a href="/public/terminos.php"><i class="material-icons">chrome_reader_mode</i>Términos de uso</a></li>
     </ul>
 
-    <!-- Zona de logo y banner -->
+    <!-- Zona de banner
     
     <div class="row">
       <div class="col s12 header_wrapper">
 
       </div>
     </div>
+
+    -->
 
 </header>
 <body>
