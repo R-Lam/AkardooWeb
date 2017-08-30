@@ -1,7 +1,7 @@
  <div class="cont_wall"> 
   <!-- Titulo -->
   <div class="st_title"> 
-    <span class="st_text st_green">Comentarios</span>
+    <span class="st_text st_green"><i class="v-middle material-icons">message</i> Publicaciones</span>
   </div>
   <!-- Comentarios planos, la version funcional se agregara mas tarde -->
   <ul class="collection">

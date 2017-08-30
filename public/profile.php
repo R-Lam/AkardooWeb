@@ -41,9 +41,23 @@
                 <!-- Bloque -->
                 <div class="entry_right">
                     <div class="st_title"> 
-                        <span class="st_text"><i class="v-middle material-icons">people</i> Amigos</span>
+                        <span class="st_text"><i class="v-middle material-icons">people</i> Medallas</span>
+                    </div>
+                    <div class="cont-r-block cont_friends">
+                        <span class="medal tooltipped" data-position="top" data-delay="50" data-tooltip="Staff Oficial"><i class="v-middle material-icons">star</i></span>
+                        <span class="medal tooltipped m_purple" data-position="top" data-delay="50" data-tooltip="VIP"><i class="v-middle material-icons">local_bar</i></span>
+                        <span class="medal tooltipped m_cyan" data-position="top" data-delay="50" data-tooltip="Moderador"><i class="v-middle material-icons">security</i></span>
+                        <span class="medal tooltipped m_green" data-position="top" data-delay="50" data-tooltip="+50 horas de juego"><i class="v-middle material-icons">games</i></span>
+                        <span class="medal tooltipped m_platinum" data-position="top" data-delay="50" data-tooltip="+100 horas de juego"><i class="v-middle material-icons">games</i></span>
                     </div>
                     <hr class="hr_line" />
+                </div>
+                <!-- Fin del bloque -->
+                <!-- Bloque -->
+                <div class="entry_right">
+                    <div class="st_title"> 
+                        <span class="st_text"><i class="v-middle material-icons">people</i> Amigos</span>
+                    </div>
                     <div class="cont-r-block cont_friends">
                         <?php
                         $prueba = 21;

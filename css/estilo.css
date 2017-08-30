@@ -5,7 +5,6 @@ body{
     background-color: #f3f3f3;
     background-size: 100%;
     background-attachment: fixed;
-    background-blend-mode: lighten;
 }
 
 /* Generales */
@@ -312,12 +311,48 @@ body{
     font-size: 20px;
 }
 
+.cont_friends{
+    margin: 15px 0;
+}
+
 .cont_friends img{
     width: 42px;
     background: #FFF;
     border: 1px solid #EEE;
     height: 42px;
 }
+
+.medal{
+    display: inline-block;
+    color: #FFF;
+    padding: 8px;
+    cursor: pointer;
+    background: #c23535;
+    transition:0.3s;    
+    border: 3px solid #a11c1c;
+    vertical-align: middle;
+}
+
+.medal:hover{
+    box-shadow: 0 0 10px #e75959;
+    background: #ce4242;
+    transition:0.3s;
+    border-color: #a72a2a;
+}
+
+.medal i{vertical-align: middle;font-size:21px!important}
+
+.m_purple{background: #ad42ce;border-color: #80219d;}
+.m_purple:hover{background: #ad42ce;box-shadow: 0 0 10px #ad42ce;border-color: #80219d;}
+
+.m_cyan{background: #42acce;border-color: #21909d;}
+.m_cyan:hover{background: #0ab8ef;box-shadow: 0 0 10px #0ab8ef;border-color: #118db5;}
+
+.m_green{background: #56c235;border-color: #35a11c;}
+.m_green:hover{background: #64d840;box-shadow: 0 0 10px #56c235;border-color: #44be28;}
+
+.m_platinum{background: #a5a5a5;border-color: #6b6b6b;}
+.m_platinum:hover{background: #b9b9b9;box-shadow: 0 0 10px #a5a5a5;border-color: #8c8c8c;}
 
 .footer_profile{
     background: rgba(0, 0, 0, 0.52);
