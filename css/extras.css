@@ -51,11 +51,11 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     border-bottom: 2px solid #6bc9f3;
     transition: 0.5s;
     cursor: pointer;
-    background: #3084aa;
+    background: rgba(48, 132, 170, 0.81);
     color: #f5f5f5;
 }
 
-.nav-txt-admin a:hover{padding: 5px 15px;border-bottom: 2px solid #61c3ed;transition:0.5s;}
+.nav-txt-admin a:hover{padding: 5px 15px;border-bottom: 2px solid #95deff;transition:0.5s;}
 
 .nav-menu-admin:hover{
     color: #797979;

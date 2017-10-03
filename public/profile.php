@@ -41,7 +41,7 @@
                 <!-- Bloque -->
                 <div class="entry_right">
                     <div class="st_title"> 
-                        <span class="st_text"><i class="v-middle material-icons">people</i> Medallas</span>
+                        <span class="st_text"><i class="v-middle material-icons">people</i> Logros</span>
                     </div>
                     <div class="cont-r-block cont_friends">
                         <span class="medal tooltipped" data-position="top" data-delay="50" data-tooltip="Staff Oficial"><i class="v-middle material-icons">star</i></span>

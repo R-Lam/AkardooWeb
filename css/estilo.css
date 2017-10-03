@@ -122,6 +122,7 @@ body{
     border: 1px solid rgba(73, 169, 212, 0.39);
     padding: 1.5em!important;
     box-sizing: border-box;
+    float: left;
     width: 99%;
     margin-bottom: 0.5em;
 }
@@ -147,6 +148,60 @@ body{
 
 .txt_italic{font-style:italic;}
 
+/* Foro */
+
+.entrada_foro{
+    margin-bottom: 0.8em;
+    float:left;
+}
+
+.sub_forum{
+    background: #ffffff;
+    border:1px solid #b5d7e2;
+    padding: 1em;
+    border-top: none;
+    font-size: 13px;
+    float: left;
+    color: #6f6f6f;
+    width: 100%;
+}
+
+.sub_forum a{
+    color: #128caf;
+}
+
+.sub_fl{float:left;}
+.sub_fr{float:right;}
+
+.sub_forum_icon{
+    padding: 0.6em;
+    border: 1px solid #157a97;
+    border-radius: 64px;
+    background: #19a1c8;
+    display: inline-block;
+    color: #787878;
+}
+
+.sub_forum_icon i{
+    color: #FFF;
+    font-size: 26px;
+}
+
+.sub_forum_data{
+    float:right;
+    margin-left: 1em;
+}
+
+.t_sb{font-weight: bold;font-size: 16px;}
+
+.avatar_sb{
+    height: 48px;
+    margin-right: 0.6em;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ebebeb;
+    border-left: 2px solid #22b510;
+    border-radius: 3px 0 0 3px;
+}
 /* Blog */
 
 .st_title{
