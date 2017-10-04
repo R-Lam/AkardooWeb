@@ -50,4 +50,8 @@ function redireccionar(){
     window.location="index.php";
 }
 
+function foro1(){
+    window.location="topic1.php";
+}
+
 // 

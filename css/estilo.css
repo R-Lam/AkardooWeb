@@ -240,7 +240,7 @@ body{
     width: 100%;
     background-color: #21b3e3;
     background-blend-mode: hard-light;
-    border: 1px solid #3ea9c4;
+    border: 1px solid #3EA9C4;
     font-weight: bold;
     padding: 15px 25px;
     margin-left: -35px;
@@ -257,6 +257,12 @@ body{
     float: left;
     width: 100%;
     margin-bottom: 0.5em;
+    
+}
+
+.sub_forum:hover{
+    background-color: #D0F6FF;
+    cursor: pointer;
 }
 
 .avatar-left{

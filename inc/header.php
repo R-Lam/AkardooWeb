@@ -35,8 +35,8 @@
             <ul id="nav-mobile" class=" hide-on-med-and-down right nav-txt-admin">
                 <span style="float:left"><img class="avatar-menu" src="/img/avatars/blog_face.png"></span>
                 <li class="nav-txt-admin-av">MegaZeroxs</li>
-                <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Inicio"><i class="material-icons">home</i></a></li>
-                <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Soporte/Mensajes"><i class="material-icons">forum</i></a></li>
+                <li><a href="/public/index.php" class="tooltipped" data-position="bottom" data-tooltip="Inicio"><i class="material-icons">home</i></a></li>
+                <li><a href="/public/forum/topics.php" class="tooltipped" data-position="bottom" data-tooltip="Soporte/Mensajes"><i class="material-icons">forum</i></a></li>
                 <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Editar perfil"><i class="material-icons">settings</i></a></li>
                 <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Salir"><i class="material-icons">exit_to_app</i></a></li>
             </ul>
@@ -68,7 +68,7 @@
       <li><a class="subheader subheader-txt">Navegación</a></li>
         <li class="opciones-nav"><a href="/public/articulos.php"><i class="material-icons">art_track</i>Blog</a></li>
         <li class="opciones-nav"><a href="/public/articulos.php"><i class="material-icons">new_releases</i>Tienda</a></li>
-        <li class="opciones-nav"><a href="/public/articulos.php"><i class="material-icons">trending_up</i>Foro</a></li>
+        <li class="opciones-nav"><a href="/public/forum/topics.php"><i class="material-icons">trending_up</i>Foro</a></li>
       <!-- -->
       <li><div class="divider"></div></li>
       <li><a class="subheader subheader-txt">Nosotros</a></li>

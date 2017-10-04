@@ -100,7 +100,7 @@
                     </div>
                     <hr class="hr_line" />
                     <div class="cont-r-block">
-                        <a href="" class="special-right s_blue"><i class="material-icons v-middle">forum</i> Visitar el foro</a>
+                        <a href="/public/forum/topics.php" class="special-right s_blue"><i class="material-icons v-middle">forum</i> Visitar el foro</a>
                         <a href="" class="special-right s_orange"><i class="material-icons v-middle">live_help</i> Ayuda y soporte</a>
                     </div>
                     <hr class="hr_line" />
