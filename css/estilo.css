@@ -193,7 +193,23 @@ body{
     margin-left: 1em;
 }
 
-.t_sb{font-weight: bold;font-size: 16px;}
+.sub2{
+    border:1px solid #b5d7e2;
+    padding: 1em;
+    border-top: none;
+    font-size: 13px;
+    float: left;
+    color: #6f6f6f;
+    width: 100%;
+    background-color: #dbecf1;
+    cursor: pointer;
+}
+
+.sub2 a{
+    color: #128caf;
+}
+
+.t_sb{font-weight: bold;font-size: 14px;}
 
 .avatar_sb{
     height: 48px;
@@ -585,4 +601,12 @@ body{
     vertical-align: middle;
     margin-right:5px;
     color: #a9a9a9;
+}
+
+.chp{
+    background-color: #E91E63;
+}
+
+.chp2{
+    background-color: #F7C444;
 }
