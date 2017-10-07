@@ -39,6 +39,7 @@ body{
 .cont-100-f{width:100%!important;}
 .no-float{float:none!important;}
 .txt-italic{font-style:italic;}
+.transi{transition:0.3s;}
 
 .btn-normal {
     text-transform: capitalize!important;
@@ -160,10 +161,17 @@ body{
     border:1px solid #b5d7e2;
     padding: 1em;
     border-top: none;
+    transition: 0.2s;    
     font-size: 13px;
     float: left;
     color: #6f6f6f;
     width: 100%;
+}
+
+.sub_forum:hover{
+    cursor: pointer;
+    background-color: rgba(0, 206, 255, 0.08);
+    transition: 0.2s;
 }
 
 .sub_forum a{
@@ -181,6 +189,10 @@ body{
     background: #19a1c8;
     display: inline-block;
     color: #787878;
+}
+
+.sub_forum_icon:hover{
+    transform: rotate(360deg);   
 }
 
 .sub_forum_icon i{
@@ -220,14 +232,42 @@ body{
     border-radius: 3px 0 0 3px;
 }
 
-.last-r{font-size: 13px;}
-.last-r a{font-size: 15px;}
+.avatar_lt{
+    height: 43px;
+    margin-right: 0.6em;
+    background: #FFF;
+    border-radius: 10px;
+    border-right: 2px solid #269bc9;
+    border-left: 2px solid #f9990a;
+}
+
+.last-r{
+    font-size: 13px;
+    display: inline-block;
+    padding: 8px 0 0 0;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e1e1e1;
+    width: 100%;
+}
+
+.last-r:nth-child(2n+1){
+    background: #FFF;    
+}
+
+.last-r a {font-size: 14px;}
 
 .t_ss{
     color: #128caf;
     font-weight: bold;
     font-size: 14px;
 }
+
+.cont-r-m{
+    margin-bottom: 12px;
+    border-right: 1px solid #EEE;
+}
+
+.t_user a {color:#8c8c8c;font-size: 13px;}
 
 /* En caso se haga mas pequeña la pantalla */
 @media only screen and (max-width: 1080px) {
@@ -274,12 +314,6 @@ body{
     float: left;
     width: 100%;
     margin-bottom: 0.5em;
-    
-}
-
-.sub_forum:hover{
-    background-color: #D0F6FF;
-    cursor: pointer;
 }
 
 .avatar-left{
@@ -315,10 +349,12 @@ body{
 .arrow_p i{color:#fff!important;}
 
 .title_right{
-    background: #1eb9e5;
+    background-image: url(/img/background_menu_test_bg.png);
+    background-color: #1eb9e5;
     border: 1px solid #50abc2;
     padding: 1em;
     color: #FFF;
+    background-blend-mode: hard-light;
     text-transform: uppercase;
     font-weight: bold;
     width: auto;
