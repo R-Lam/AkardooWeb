@@ -68,14 +68,14 @@
                         <div class="sub_fl">
                             <div class="sub_forum_icon tooltipped" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">games</i></div>
                             <div class="sub_forum_data">
-                                <a href="/public/blog.php" clasS="t_sb"><span class="">Titulo de subforo I</span></a><br>
+                                <a href="/public/forum/view.php" clasS="t_sb"><span class="">Titulo de subforo I</span></a><br>
                                 <span class="">Descripción de este subforo, puede ser larga o corta</span>
                             </div>
                         </div>
                         <div class="sub_fr">
                             <div class="sub_forum_data">
                                 <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                                <a href="/public/blog.php" clasS="t_ss"><span class="">Titulo de un tema que p...</span></a><br>
+                                <a href="/public/forum/view.php" clasS="t_ss"><span class="">Titulo de un tema que p...</span></a><br>
                                 <span class="t_user">@AdminShidori</span>
                             </div>
                         </div>
@@ -86,14 +86,14 @@
                         <div class="sub_fl">
                             <div class="sub_forum_icon tooltipped" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">message</i></div>
                             <div class="sub_forum_data">
-                                <a href="/public/blog.php" clasS="t_sb"><span class="">Titulo de subforo II</span></a><br>
+                                <a href="/public/forum/view.php" clasS="t_sb"><span class="">Titulo de subforo II</span></a><br>
                                 <span class="">Descripción de este subforo, puede ser larga o corta x2</span>
                             </div>
                         </div>
                         <div class="sub_fr">
                             <div class="sub_forum_data">
                                 <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                                <a href="/public/blog.php" clasS="t_ss"><span class="">Titulo de un tema que s...</span></a><br>
+                                <a href="/public/forum/view.php" clasS="t_ss"><span class="">Titulo de un tema que s...</span></a><br>
                                 <span class="t_user">@AdminShidori</span>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                     <hr class="hr_line" />
                     <div class="cont-r-block last-r">
                         <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                        <a href="/public/blog.php" clasS="t_sb"><span class="">Titulo de un tema que s...</span></a><br>
+                        <a href="/public/forum/view.php" clasS="t_sb"><span class="">Titulo de un tema que s...</span></a><br>
                         <span class="t_user">@AdminShidori</span>
                     </div>
                     <hr class="hr_line" />
@@ -140,7 +140,7 @@
                     </div>
                     <hr class="hr_line" />
                     <div class="cont-r-block">
-                        <a href="" class="special-right s_blue"><i class="material-icons v-middle">forum</i> Visitar el foro</a>
+                        <a href="topics.php" class="special-right s_blue"><i class="material-icons v-middle">forum</i> Visitar el foro</a>
                         <a href="" class="special-right s_orange"><i class="material-icons v-middle">live_help</i> Ayuda y soporte</a>
                     </div>
                     <hr class="hr_line" />

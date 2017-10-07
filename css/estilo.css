@@ -254,7 +254,7 @@ body{
 .st_text{
     background-image: url(/img/background_menu_test_bg.png);        
     width: 100%;
-    background-color: #21b3e3;
+    background-color: #21B3E3;
     background-blend-mode: hard-light;
     border: 1px solid #3EA9C4;
     font-weight: bold;
@@ -266,6 +266,7 @@ body{
 }
 
 .title_nick{color:#FFF;}
+.st_blue{background: #21B3E3;border: 1px solid #3EA9C4;}
 .st_green{background: #50be36;border: 1px solid #36a91b;}
 .date_pink{color:#df588a};
 
@@ -283,6 +284,14 @@ body{
 
 .avatar-left{
     background: #f5f5f5;
+    padding: 0.4em!important;
+    border: 1px solid #e5e5e5;
+    float: left;
+    border-radius: 0 0 14px 0;
+    margin: 0!important;
+}
+.avatar_admin-left{
+    background: #E82929;
     padding: 0.4em!important;
     border: 1px solid #e5e5e5;
     float: left;
@@ -332,6 +341,32 @@ body{
 }
 
 .cont_blog img{
+    max-width: 100%;
+}
+
+.cont_forum{
+    display: inline-block;
+    background: #f3f3f3;
+    padding: 0.8em 1em;
+    color: #616161;
+    margin: 5px 0 0 15px;
+    border-left: 3px solid #2eb6b7;
+}
+
+.cont_forum img{
+    max-width: 100%;
+}
+
+.cont_forum_admin{
+    display: inline-block;
+    background: #f3f3f3;
+    padding: 0.8em 1em;
+    color: #616161;
+    margin: 5px 0 0 15px;
+    border-left: 3px solid #E82929;
+}
+
+.cont_forum_admin img{
     max-width: 100%;
 }
 
