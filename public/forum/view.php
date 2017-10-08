@@ -5,14 +5,14 @@
 
 <div class="principal">
     <div class="row">
-       <div class="col s12 l9 m8">
+       <div class="col s12 m12 l9">
             <div class="cont_left bg_white">
                 <!-- Entrada de blog-->
                 <div class="entrada-blog">
-                    <div class="chip">
+                    <div class="chip schip">
                         <span class=""><i class="material-icons">new_releases</i><a class="white-text" href="">Avisos</a></span>
                     </div>
-                    <div class="chip"><span class=""><a class="white-text" href="topic1.php">Regresar</a></span></div>
+                    <div class="chip schip"><span class=""><a class="white-text" href="topic1.php">Regresar</a></span></div>
                     <div class="title_blog">
                         <div class="avatar_admin-left tooltipped" data-position="top" data-delay="20" data-tooltip="MegaZeroxs">
                             <a href="#"><img class="s_avatar_img" src="/img/avatars/blog_face.png" /></a>
@@ -21,13 +21,16 @@
                         <div class="arrow"><i class="material-icons">play_arrow</i></div>
                         <div class="title_right">
                             <span class="title_date right tooltipped" data-position="top" data-tooltip="23/08/2017"><i class="material-icons">date_range</i></span>
-                            <div class="chip chp2 white-text">¡Entérate!</div><span class="title_nick">¡Akardoo necesita de ti!</span><br>
+                            <div class="chip schip chp2 white-text">¡Entérate!</div><span class="title_nick">¡Akardoo necesita de ti!</span><br>
                         </div>
                     </div>
-                    <!-- Entrada al blog en pantallas pequeñas -->
+                    <!-- CONTENIDO DEL BLOG -->
                     <div class="cont_forum_admin z-depth-3">
-                        <img src="/img/forum/topic1/ak.png" class="col s6" />
-                        <div class="cont_frtext col s6">
+                        <div class="cont-topic-l">
+                            Hola akardeanos, me complace anunciarles los cambios mas recientes dentro del servidor survival:<br>
+                            De momento estos han sido los cambios mas recientes realizados, los estaremos informando en futuras mejoras y novedades :)
+                        </div>
+                        <div class="cont-topic-r">
                             Hola akardeanos, me complace anunciarles los cambios mas recientes dentro del servidor survival:<br>
                             Los VIP podrán acceder a kits exclusivos cada semana, dependiendo del rango mejor serán los objetos obtenidos mediante el kit.
                             Para fomentar el uso de las elitras, cada kit exclusivo de VIP cuentan con cohetes que incrementan su poder según el rango del VIP, ademas de cuero para reparar tu elitra.
@@ -37,6 +40,7 @@
                             De momento estos han sido los cambios mas recientes realizados, los estaremos informando en futuras mejoras y novedades :)
                         </div>
                     </div>
+                    <!-- Fin contenido del blog -->
                     <hr class="hr_line" />
                     <div class="footer_blog">
                         <div class="social_cont right">
@@ -49,9 +53,6 @@
                     </div>
                 </div>
                 <!-- Fin entrada de blog-->
-                <hr class="hr_line" />
-                <!-- Comentarios -->
-                <?php include('replies.php') ?>
             </div>
        </div>
        <div class="col s12 l3 m4">

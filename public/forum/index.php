@@ -17,7 +17,7 @@
                         </div>
                     </div>
                     <!-- Secciones del foro-->
-                    <div class="sub_forum">
+                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes sin leer" data-position="bottom" data-delay="10" onclick="foro1()">
                         <div class="sub_fl">
                             <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">face</i></div>
                             <div class="sub_forum_data">
@@ -35,7 +35,7 @@
                     </div>
                     <!-- Fin de secciones del foro -->
                     <!-- Secciones del foro-->
-                    <div class="sub_forum">
+                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes sin leer" data-position="bottom" data-delay="10" onclick="foro1()">
                         <div class="sub_fl">
                             <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">videogame_asset</i></div>
                             <div class="sub_forum_data">
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <!-- Secciones del foro-->
-                    <div class="sub_forum">
+                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes sin leer" data-position="bottom" data-delay="10" onclick="foro1()">
                         <div class="sub_fl">
                             <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">games</i></div>
                             <div class="sub_forum_data">
@@ -82,7 +82,7 @@
                     </div>
                     <!-- Fin de secciones del foro -->
                     <!-- Secciones del foro-->
-                    <div class="sub_forum">
+                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes sin leer" data-position="bottom" data-delay="10" onclick="foro1()">
                         <div class="sub_fl">
                             <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">message</i></div>
                             <div class="sub_forum_data">

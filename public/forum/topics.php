@@ -6,47 +6,47 @@
 <div class="principal">
     <div class="row">
        <div class="col s12 m12 l9">
-            <div class="cont_left">
+            <div class="cont_left bg_white">
                 <!-- Categoria del foro-->
                 <div class="entrada_foro">
                     <div class="title_blog">
                         <!-- Flecha -->
-                        <div class="title_right center-align">
-                            <span class="title_date right tooltipped" data-position="top" data-tooltip="23/08/2017"><i class="material-icons">date_range</i></span>
-                            <span class=""><a class="white-text" href="">Foro 1</a></span>
+                        <div class="title_right">
+                            <span class="title_date right tooltipped" data-position="top" data-tooltip="¿?"><i class="material-icons">keyboard_arrow_down</i></span>
+                            <span class=""><i class="material-icons left">new_releases</i><a class="white-text" href="">Titulo de foro I</a></span>
                         </div>
                     </div>
                     <!-- Secciones del foro-->
-                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes sin leer" data-position="bottom" data-delay="10" onclick="foro1()">
+                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes que leer" data-position="right" data-delay="50" onclick="foro1()">
                         <div class="sub_fl">
-                            <div class="sub_forum_icon tooltipped" data-delay="20" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">face</i></div>
+                            <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">face</i></div>
                             <div class="sub_forum_data">
-                                <a href="topic1.php" clasS="t_sb"><span class="">Titulo de subforo I</span></a><br>
+                                <a href="/public/blog.php" class="t_sb"><span class="">Titulo de subforo I</span></a><br>
                                 <span class="">Descripción de este subforo, puede ser larga o corta</span>
                             </div>
                         </div>
                         <div class="sub_fr">
                             <div class="sub_forum_data">
                                 <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                                <a href="topic1.php" clasS="t_ss"><span class="">Titulo de un tema que p...</span></a><br>
+                                <a href="/public/blog.php" class="t_ss"><span class="">Titulo de un tema que p...</span></a><br>
                                 <span class="t_user">@AdminShidori</span>
                             </div>
                         </div>
                     </div>
                     <!-- Fin de secciones del foro -->
                     <!-- Secciones del foro-->
-                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes sin leer" data-position="bottom" data-delay="10" onclick="foro1()">
+                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes que leer" data-position="right" data-delay="50" onclick="foro1()">
                         <div class="sub_fl">
-                            <div class="sub_forum_icon tooltipped" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">videogame_asset</i></div>
+                            <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">videogame_asset</i></div>
                             <div class="sub_forum_data">
-                                <a href="topic1.php" clasS="t_sb"><span class="">Titulo de subforo II</span></a><br>
+                                <a href="/public/blog.php" class="t_sb"><span class="">Titulo de subforo II</span></a><br>
                                 <span class="">Descripción de este subforo, puede ser larga o corta x2</span>
                             </div>
                         </div>
                         <div class="sub_fr">
                             <div class="sub_forum_data">
                                 <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                                <a href="topic1.php" clasS="t_ss"><span class="">Titulo de un tema que s...</span></a><br>
+                                <a href="/public/blog.php" class="t_ss"><span class="">Titulo de un tema que s...</span></a><br>
                                 <span class="t_user">@AdminShidori</span>
                             </div>
                         </div>
@@ -58,42 +58,42 @@
                 <div class="entrada_foro">
                     <div class="title_blog">
                         <!-- Flecha -->
-                        <div class="title_right center-align">
-                            <span class="title_date right tooltipped" data-position="top" data-tooltip="23/08/2017"><i class="material-icons">date_range</i></span>
-                            <span class=""><a class="white-text" href="">Foro 2</a></span>
+                        <div class="title_right">
+                            <span class="title_date right tooltipped" data-position="top" data-tooltip="¿?"><i class="material-icons">keyboard_arrow_down</i></span>
+                            <span class=""><i class="material-icons left">new_releases</i><a class="white-text" href="">Titulo de foro II</a></span>
                         </div>
                     </div>
                     <!-- Secciones del foro-->
-                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes sin leer" data-position="bottom" data-delay="10" onclick="foro1()">
+                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes que leer" data-position="right" data-delay="50" onclick="foro1()">
                         <div class="sub_fl">
-                            <div class="sub_forum_icon tooltipped" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">games</i></div>
+                            <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">games</i></div>
                             <div class="sub_forum_data">
-                                <a href="/public/blog.php" clasS="t_sb"><span class="">Titulo de subforo I</span></a><br>
+                                <a href="/public/blog.php" class="t_sb"><span class="">Titulo de subforo I</span></a><br>
                                 <span class="">Descripción de este subforo, puede ser larga o corta</span>
                             </div>
                         </div>
                         <div class="sub_fr">
                             <div class="sub_forum_data">
                                 <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                                <a href="/public/blog.php" clasS="t_ss"><span class="">Titulo de un tema que p...</span></a><br>
+                                <a href="/public/blog.php" class="t_ss"><span class="">Titulo de un tema que p...</span></a><br>
                                 <span class="t_user">@AdminShidori</span>
                             </div>
                         </div>
                     </div>
                     <!-- Fin de secciones del foro -->
                     <!-- Secciones del foro-->
-                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes sin leer" data-position="bottom" data-delay="10" onclick="foro1()">
+                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes que leer" data-position="right" data-delay="50" onclick="foro1()">
                         <div class="sub_fl">
-                            <div class="sub_forum_icon tooltipped" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">message</i></div>
+                            <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">message</i></div>
                             <div class="sub_forum_data">
-                                <a href="/public/blog.php" clasS="t_sb"><span class="">Titulo de subforo II</span></a><br>
+                                <a href="/public/blog.php" class="t_sb"><span class="">Titulo de subforo II</span></a><br>
                                 <span class="">Descripción de este subforo, puede ser larga o corta x2</span>
                             </div>
                         </div>
                         <div class="sub_fr">
                             <div class="sub_forum_data">
                                 <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                                <a href="/public/blog.php" clasS="t_ss"><span class="">Titulo de un tema que s...</span></a><br>
+                                <a href="/public/blog.php" class="t_ss"><span class="">Titulo de un tema que s...</span></a><br>
                                 <span class="t_user">@AdminShidori</span>
                             </div>
                         </div>
@@ -111,13 +111,29 @@
                     <div class="st_title"> 
                         <span class="st_text">Últimos temas! </span>
                     </div>
-                    <hr class="hr_line" />
-                    <div class="cont-r-block last-r">
-                        <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                        <a href="/public/blog.php" clasS="t_sb"><span class="">Titulo de un tema que s...</span></a><br>
-                        <span class="t_user">@AdminShidori</span>
+                    <div class="cont-r-m">
+                        <!-- Ultimo tema -->
+                        <div class="cont-r-block last-r">
+                            <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_lt" src="/img/avatars/blog_face.png"></a>
+                            <a href="/public/blog.php" class="t_sb"><span class="">Titulo de un tema que s...</span></a><br>
+                            <span class="t_user">Por <a href="/public/profile.php">AdminShidori</a></span>
+                        </div>
+                        <!-- Fin ultimo tema -->
+                        <!-- Ultimo tema -->
+                        <div class="cont-r-block last-r">
+                            <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_lt" src="/img/avatars/blog_face.png"></a>
+                            <a href="/public/blog.php" class="t_sb"><span class="">Titulo de un tema que s...</span></a><br>
+                            <span class="t_user">Por <a href="/public/profile.php">AdminShidori</a></span>
+                        </div>
+                        <!-- Fin ultimo tema -->
+                        <!-- Ultimo tema -->
+                        <div class="cont-r-block last-r">
+                            <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_lt" src="/img/avatars/blog_face.png"></a>
+                            <a href="/public/blog.php" class="t_sb"><span class="">Titulo de un tema que s...</span></a><br>
+                            <span class="t_user">Por <a href="/public/profile.php">AdminShidori</a></span>
+                        </div>
+                        <!-- Fin ultimo tema -->
                     </div>
-                    <hr class="hr_line" />
                 </div>
                 <!-- Fin del bloque -->
                 <!-- Bloque -->
