@@ -12,7 +12,7 @@
                     <div class="cont_profile">
                         <div class="wrapper_profile">
                             <div class="avatar_profile tooltipped" data-position="top" data-delay="50" data-tooltip="Online">
-                                <a href="#"><img class="p_avatar_img" src="/img/avatars/blog_face.png" /></a> <span class="p_avatar_status">Administrador</span>
+                                <a href="#" class="left"><img class="p_avatar_img" src="/img/avatars/blog_face.png" /></a> <span class="p_avatar_status">Administrador</span>
                             </div>
                             <!-- Flecha -->
                             <div class="arrow arrow_p"><i class="material-icons">play_arrow</i></div>

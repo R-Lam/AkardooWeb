@@ -223,6 +223,32 @@ body{
 
 .t_sb{font-weight: bold;font-size: 14px;}
 
+
+.p_avatar_left {
+    display: block;
+    color: #909090;
+    border-radius: 0 4px 4px 0;
+    padding: 5px 0;
+    font-size: 11px;
+    background: #F2F2F2;
+    border: 1px solid #DDD;
+    text-align: center;
+}
+
+.forum_nick{
+    margin-bottom: 0.8em;
+    font-weight: bold;
+    float: left;
+    color: #b11f1f;
+    font-size: 14px;
+}
+
+.border_special{border-radius: 4px 0 0 4px;}
+.avatar_for{background: #ffffff!important;border: 1px solid #efefef;}
+.avatar_for_c{text-shadow: 1px 0px 0 #e1e1e1;margin-left: -0.7em!important;}
+.avatar_for_c i{color: #F2F2F2!important;}
+.avattar_for_cont{padding: 5px;padding-bottom: 0;}
+
 .avatar_sb{
     height: 48px;
     margin-right: 0.6em;
@@ -286,11 +312,16 @@ body{
 }
 
 .cont-topic-l{
-    display: inline-block;
+    width: 128px;    
+    margin-right:5px;
+    float:left;
 }
 
 .cont-topic-r{
-    display: inline-block;
+    width: calc(100% - 134px);
+    float: left;
+    border-left:1px solid #ebebeb;    
+    padding-left:0.8em;    
 }
 
 .t_user a {color:#8c8c8c;font-size: 13px;}
@@ -419,13 +450,13 @@ body{
     max-width: 100%;
 }
 
-.cont_forum_admin{
+.cont_forum_admin {
     display: inline-block;
-    background: #f3f3f3;
+    background: #ffffff;
     padding: 0.8em 1em;
     color: #616161;
     margin: 5px 0 0 15px;
-    border-left: 3px solid #E82929;
+    border-left: 3px solid #09bff1;
 }
 
 .cont_forum_admin img{
@@ -451,10 +482,10 @@ body{
 }
 
 .comment-i-c:hover, .comment-i-c-activo{
-    border: 1px solid #03A9F4;
+    border: 1px solid #03A9F4!important;
     color: #ffffff;
     transition: 0.3s;
-    background: #00BCD4;
+    background: #00BCD4!important;
 }
 
 .footer_blog{
@@ -466,6 +497,30 @@ body{
     margin-top: 8px;
     font-size: 13px;
 }
+
+/* Especial 2 */
+
+.cont-topic-l-stats{
+    float: left;
+    text-align:left;
+    width: 100%;
+}
+
+.stats_loves{
+    border: 1px solid #e55d5d;
+    color: #ffffff;
+    transition: 0.3s;
+    text-align: center;
+    background: #ff7373;
+    padding: 3px 5px;
+    margin: 8px 2px 0 0;
+    display: inline-block;
+    width: 84%;
+    font-size: 12px;
+}
+
+
+.stats_loves i{font-size: 18px;}
 
 /* Perfil */
 

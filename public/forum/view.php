@@ -24,13 +24,27 @@
                             <div class="chip schip chp2 white-text">¡Entérate!</div><span class="title_nick">¡Akardoo necesita de ti!</span><br>
                         </div>
                     </div>
-                    <!-- CONTENIDO DEL BLOG -->
-                    <div class="cont_forum_admin z-depth-3">
+                    <!-- CONTENIDO DE FORO -->
+                    <div class="cont_forum_admin">
+                        <!-- Usuario -->
                         <div class="cont-topic-l">
-                            Hola akardeanos, me complace anunciarles los cambios mas recientes dentro del servidor survival:<br>
-                            De momento estos han sido los cambios mas recientes realizados, los estaremos informando en futuras mejoras y novedades :)
+                            <span class="forum_nick">@Admin_ShidoriS2</span>
+                            <div class="right">
+                            <div class="avatar_profile border_special tooltipped" data-position="top" data-delay="50" data-tooltip="Online">
+                                <a href="#" class="left avattar_for_cont"><img class="p_avatar_img avatar_for" src="/img/avatars/blog_face.png" /></a> <span class="p_avatar_left">Administrador</span>
+                            </div>
+                            <!-- Flecha -->
+                            <div class="arrow avatar_for_c"><i class="material-icons">play_arrow</i></div>
+                            <!-- Estadisticas -->
+                            <div class="cont-topic-l-stats">
+                                <div class="comment-i v-middle comment-i-l tooltipped stats_loves" data-position="top" data-tooltip="Favoritos"><i class="material-icons v-middle">favorite_border</i> + <span>1000</span></div>
+                                <div class="comment-i v-middle comment-i-c-activo tooltipped stats_loves" data-position="top" data-tooltip="Favoritos"><i class="material-icons v-middle">chat_bubble_outline</i> + <span>637</span></div>
+                            </div>
                         </div>
+                        </div>
+                        <!-- Contenido -->
                         <div class="cont-topic-r">
+                            <img src="https://akardoo.com/content/blog/heading.png" />
                             Hola akardeanos, me complace anunciarles los cambios mas recientes dentro del servidor survival:<br>
                             Los VIP podrán acceder a kits exclusivos cada semana, dependiendo del rango mejor serán los objetos obtenidos mediante el kit.
                             Para fomentar el uso de las elitras, cada kit exclusivo de VIP cuentan con cohetes que incrementan su poder según el rango del VIP, ademas de cuero para reparar tu elitra.
@@ -40,7 +54,7 @@
                             De momento estos han sido los cambios mas recientes realizados, los estaremos informando en futuras mejoras y novedades :)
                         </div>
                     </div>
-                    <!-- Fin contenido del blog -->
+                    <!-- Fin contenido del foro -->
                     <hr class="hr_line" />
                     <div class="footer_blog">
                         <div class="social_cont right">
