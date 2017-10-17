@@ -30,13 +30,13 @@
       <div class="menu_content">
         <div class="nav-wrapper">
             <span data-activates="slide-out" class="button-collapse nav-menu-admin tooltipped" data-position="bottom" data-delay="375" data-tooltip="Navegación"><i class="material-icons">menu</i></span>
-            <a class="dropdown-button show-m right menu-user-nav margin_a" href="/public/productos" data-activates="dropdown1"><img class="avatar-menu" src="/img/avatars/default.png"><i class="material-icons menu-dps right margin_z">arrow_drop_down</i></a></li>
+            <a class="dropdown-button show-m right menu-user-nav margin_a" href="/public/productos" data-activates="dropdown1"><img class="avatar-menu" src="/img/avatars/blog_face.png"><i class="material-icons menu-dps right margin_z">arrow_drop_down</i></a></li>
             <!-- Menu dinamico -->
             <ul id="nav-mobile" class=" hide-on-med-and-down right nav-txt-admin">
                 <span style="float:left"><img class="avatar-menu" src="/img/avatars/blog_face.png"></span>
-                <li class="nav-txt-admin-av">MegaZeroxs</li>
+                <li><a href="/public/profile.php">MegaZeroxs</a></li>
                 <li><a href="/public/index.php" class="tooltipped" data-position="bottom" data-tooltip="Inicio"><i class="material-icons">home</i></a></li>
-                <li><a href="/public/forum/topics.php" class="tooltipped" data-position="bottom" data-tooltip="Soporte/Mensajes"><i class="material-icons">forum</i></a></li>
+                <li><a href="/public/messenger/message.php" class="tooltipped" data-position="bottom" data-tooltip="Soporte/Mensajes"><i class="material-icons">forum</i></a></li>
                 <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Editar perfil"><i class="material-icons">settings</i></a></li>
                 <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Salir"><i class="material-icons">exit_to_app</i></a></li>
             </ul>
@@ -66,9 +66,9 @@
       <!-- -->
       <li><div class="divider"></div></li>
       <li><a class="subheader subheader-txt">Navegación</a></li>
-        <li class="opciones-nav"><a href="/public/articulos.php"><i class="material-icons">art_track</i>Blog</a></li>
-        <li class="opciones-nav"><a href="/public/articulos.php"><i class="material-icons">new_releases</i>Tienda</a></li>
-        <li class="opciones-nav"><a href="/public/forum/topics.php"><i class="material-icons">trending_up</i>Foro</a></li>
+        <li class="opciones-nav"><a href="/public/index.php"><i class="material-icons">art_track</i>Blog</a></li>
+        <li class="opciones-nav"><a href="/public/forum/topics.php"><i class="material-icons">forum</i>Foro</a></li>
+        <li class="opciones-nav"><a href="/public/shop.php"><i class="material-icons">store</i>Tienda</a></li>
       <!-- -->
       <li><div class="divider"></div></li>
       <li><a class="subheader subheader-txt">Nosotros</a></li>
