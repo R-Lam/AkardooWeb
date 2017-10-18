@@ -42,7 +42,7 @@
       <li><a class="subheader subheader-txt">Navegación</a></li>
         <li class="opciones-nav"><a href="/public/articulos.php"><i class="material-icons">art_track</i>Blog</a></li>
         <li class="opciones-nav"><a href="/public/articulos.php"><i class="material-icons">new_releases</i>Tienda</a></li>
-        <li class="opciones-nav"><a href="/public/articulos.php"><i class="material-icons">trending_up</i>Foro</a></li>
+        <li class="opciones-nav"><a href="/public/forum/topics.php"><i class="material-icons">trending_up</i>Foro</a></li>
       <!-- -->
       <li><div class="divider"></div></li>
       <li><a class="subheader subheader-txt">Nosotros</a></li>

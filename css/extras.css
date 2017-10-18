@@ -1,7 +1,8 @@
 /* Header */
 
 .navbar-fixed {
-    height: 56px!important;
+    height: 100px!important;
+    background: #0098ca;    
 }
 
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
@@ -47,17 +48,18 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 
 .nav-menu-admin{
     padding: 0 12px;
-    border-bottom: 2px solid #3084aa;
+    border-bottom: 2px solid #6bc9f3;
     transition: 0.5s;
     cursor: pointer;
-    background: #3084aa;
+    background: rgba(48, 132, 170, 0.81);
     color: #f5f5f5;
 }
 
+.nav-txt-admin a:hover{padding: 5px 15px;border-bottom: 2px solid #95deff;transition:0.5s;}
 
 .nav-menu-admin:hover{
     color: #797979;
-    border-color: #3084aa;
+    border-color: #10617c;
     transition: 0.5s;
     background: #f1f1f1;
 }
@@ -87,6 +89,7 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 
 .avatar-menu{
     height: 56px;
+    background: rgba(255, 255, 255, 0.4);
     border-left: 3px solid #00ce71;
 }
 
@@ -246,6 +249,21 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
         .title_date{
             display: none;
         }
+
+        .cont_p_logo{
+            height: 135px!important;
+            background: #FFF;
+            background-image: url(/img/header.png);
+        }
+        .logo_ark{
+            width: 162px;
+            margin-top: 0.6em;
+            background-size: 90%;
+            height: 100px;
+        }
+        .links_header{
+            margin: 2.8em;
+        }
     }
 
     /* Pantalla pequeña */
@@ -254,12 +272,30 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
         .avatar-menu{
             height: 56px;
         }
-        
         .menu-user-nav{
             height: 56px!important;
         }
-
         .info_cont{
             display:block;
+        }
+        .links_header {
+            padding: 0 15px;
+            font-weight: bold;
+            border-radius:0;
+            margin: 0!important;
+            position: relative;
+            background: #E91E63;
+        }
+        .lk_ip:before {
+            content: "mc.akardoo.com";
+        }
+        .lk_td:before {
+            content: "¡Tienda!";
+        }
+        .logo_ark{
+            width: 130px;
+            margin-top: 1em;
+            background-size: 90%;
+            height: 100px;
         }
     }
