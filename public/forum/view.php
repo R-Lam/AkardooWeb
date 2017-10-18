@@ -7,6 +7,8 @@
     <div class="row">
        <div class="col s12 m12 l9">
             <div class="cont_left bg_white">
+                <!-- Se incluye el submenu para mostrar en donde se enuentra  -->
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/public/forum/submenu.php') ?>
                 <!-- Entrada de foro (Tema central) -->
                 <div class="entrada-blog">
                     <!-- TAGS -->

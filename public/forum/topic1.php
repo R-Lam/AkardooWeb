@@ -6,102 +6,116 @@
 <div class="principal">
     <div class="row">
        <div class="col s12 m12 l9">
-            <div class="cont_left">
+            <div class="cont_left bg_white">
+                <!-- Se incluye el submenu para mostrar en donde se enuentra  -->
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/public/forum/submenu.php') ?>
                 <!-- Categoria del foro-->
                 <div class="entrada_foro">
                     <div class="title_blog">
                         <!-- Flecha -->
                         <div class="title_right center-align">
                             <span class="title_date right tooltipped" data-position="top" data-tooltip="23/08/2017"><i class="material-icons">keyboard_arrow_down</i></span>
-                            <span class="new_topics"><i class="material-icons left">new_releases</i><a class="white-text" href="">Avisos</a></span>
+                            <span class="new_topics"><i class="material-icons left">new_releases</i><a class="white-text" href="">SUB FORO II</a></span>
                         </div>
                     </div>
                     <!-- Secciones del foro-->
-                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes que leer" data-position="right" data-delay="50" onclick="foro1()">
+                    <div class="sub_forum" onclick="window.location = 'view.php'">
                         <div class="sub_fl">
-                            <div class="sub_forum_icon tooltipped transi" data-delay="20" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">face</i></div>
+                            <div class="sub_forum_icon tooltipped transi" data-delay="20" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">star</i></div>
                             <div class="sub_forum_data">
                                 <div class="chip chp white-text">¡Importante!</div><a href="topic1.php" clasS="t_sb"><span class="">Akardoo como nunca lo viste</span></a><br>
-                                <span class="">¡Hola muchachos, primero que nada g...</span>
+                                <div class="title_forum_footer padding-z"><span class="">Por: </span><strong>@Admin_ShidoriS2</strong><span> el 13/10/27</span></div>
                             </div>
                         </div>
                         <div class="sub_fr">
                             <div class="sub_forum_data">
                                 <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                                <a href="topic1.php" clasS="t_ss"><span class="">¡Hola muchachos, primero que...</span></a><br>
-                                <span class="t_user">@AdminShidori</span>
+                                <a href="/public/profile.php" clasS="t_ss"><span class="">@AdminShidori</span></a><br>
+                                <span class="t_user">24/05/2017</span>
+                            </div>
+                        </div>
+                        <div class="sub_fr">
+                            <div class="sub_forum_stats">
+                                <span>64 respuestas</span>
+                                <span>169 visitas</span>
                             </div>
                         </div>
                     </div>
                     <!-- Fin de secciones del foro -->
                     <!-- Secciones del foro-->
-                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes que leer" data-position="right" data-delay="50" onclick="foro1()">
+                    <div class="sub_forum" onclick="window.location = 'view.php'">
                     <div class="sub_fl">
                             <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">videogame_asset</i></div>
                             <div class="sub_forum_data">
-                            <div class="chip chp2 white-text">¡Entérate!</div><a href="topic1.php" clasS="t_sb"><span class="">Normas de convivencia...</span></a><br>
-                                <span class="">Para mantener la armonía y tener una...</span>
+                            <div class="chip chp2 white-text">¡Entérate!</div><a href="topic1.php" clasS="t_sb"><span class="">Normas de convivencia de una manera un tanto larga e,e</span></a><br>
+                            <div class="title_forum_footer padding-z"><span class="">Por: </span><strong>@Admin_ShidoriS2</strong><span> el 13/10/27</span></div>
                             </div>
                         </div>
                         <div class="sub_fr">
                             <div class="sub_forum_data">
                                 <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                                <a href="topic1.php" clasS="t_ss"><span class="">Para mantener la armonía y te...</span></a><br>
-                                <span class="t_user">@AdminShidori</span>
+                                <a href="/public/profile.php" clasS="t_ss"><span class="">@AdminShidori</span></a><br>
+                                <span class="t_user">24/05/2017</span>
+                            </div>
+                        </div>
+                        <div class="sub_fr">
+                            <div class="sub_forum_stats">
+                                <span>64 respuestas</span>
+                                <span>169 visitas</span>
                             </div>
                         </div>
                     </div>
                     <!-- Fin de secciones del foro -->
-                </div>
-                <!-- Fin de categoria del foro -->
-                <!-- Categoria del foro-->
-                <div class="entrada_foro">
-                    <div class="title_blog">
-                        <!-- Flecha -->
-                        <div class="title_right center-align">
-                            <span class="title_date right tooltipped" data-position="top" data-tooltip="23/08/2017"><i class="material-icons">keyboard_arrow_down</i></span>
-                            <span class="new_topics"><i class="material-icons left">forum</i><a class="white-text" href="">Foro 2</a></span>
-                        </div>
-                    </div>
                     <!-- Secciones del foro-->
-                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes que leer" data-position="right" data-delay="50" onclick="foro1()">
-                        <div class="sub_fl">
+                    <div class="sub_forum" onclick="window.location = 'view.php'">
+                    <div class="sub_fl">
                             <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">games</i></div>
                             <div class="sub_forum_data">
                                 <a href="/public/forum/view.php" clasS="t_sb"><span class="">Titulo de subforo I</span></a><br>
-                                <span class="">Descripción de este subforo, puede ser larga o corta</span>
+                                <div class="title_forum_footer padding-z"><span class="">Por: </span><strong>@Admin_ShidoriS2</strong><span> el 13/10/27</span></div>
                             </div>
                         </div>
                         <div class="sub_fr">
                             <div class="sub_forum_data">
                                 <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                                <a href="/public/forum/view.php" clasS="t_ss"><span class="">Titulo de un tema que p...</span></a><br>
-                                <span class="t_user">@AdminShidori</span>
+                                <a href="/public/profile.php" clasS="t_ss"><span class="">@AdminShidori</span></a><br>
+                                <span class="t_user">24/05/2017</span>
+                            </div>
+                        </div>
+                        <div class="sub_fr">
+                            <div class="sub_forum_stats">
+                                <span>64 respuestas</span>
+                                <span>169 visitas</span>
                             </div>
                         </div>
                     </div>
                     <!-- Fin de secciones del foro -->
                     <!-- Secciones del foro-->
-                    <div class="sub_forum tooltipped" data-tooltip="No hay mensajes que leer" data-position="right" data-delay="50" onclick="foro1()">
+                    <div class="sub_forum" onclick="window.location = 'view.php'">
                         <div class="sub_fl">
                             <div class="sub_forum_icon tooltipped transi" data-tooltip="NOMBRE DEL FORO" data-position="top"><i class="v-middle material-icons">message</i></div>
                             <div class="sub_forum_data">
                                 <a href="/public/forum/view.php" clasS="t_sb"><span class="">Titulo de subforo II</span></a><br>
-                                <span class="">Descripción de este subforo, puede ser larga o corta x2</span>
+                                <div class="title_forum_footer padding-z"><span class="">Por: </span><strong>@Admin_ShidoriS2</strong><span> el 13/10/27</span></div>
                             </div>
                         </div>
                         <div class="sub_fr">
                             <div class="sub_forum_data">
                                 <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_sb" src="/img/avatars/blog_face.png"></a>
-                                <a href="/public/forum/view.php" clasS="t_ss"><span class="">Titulo de un tema que s...</span></a><br>
-                                <span class="t_user">@AdminShidori</span>
+                                <a href="/public/profile.php" clasS="t_ss"><span class="">@AdminShidori</span></a><br>
+                                <span class="t_user">24/05/2017</span>
+                            </div>
+                        </div>
+                        <div class="sub_fr">
+                            <div class="sub_forum_stats">
+                                <span>64 respuestas</span>
+                                <span>169 visitas</span>
                             </div>
                         </div>
                     </div>
                     <!-- Fin de secciones del foro -->
                 </div>
                 <!-- Fin de categoria del foro -->
-
             </div>
        </div>
        <div class="col s12 m12 l3">
@@ -122,7 +136,7 @@
                     <!-- Ultimo tema -->
                     <div class="cont-r-block last-r">
                         <a href="/public/profile.php" class="tooltipped" data-tooltip="@AdminShidori" data-position="top" style="float:left"><img class="avatar_lt" src="/img/avatars/blog_face.png"></a>
-                        <a href="/public/blog.php" class="t_sb"><span class="">Titulo de un tema que s...</span></a><br>
+                                <span class="t_user">@AdminShidori</span>
                         <span class="t_user">Por <a href="/public/profile.php">AdminShidori</a></span>
                     </div>
                     <!-- Fin ultimo tema -->

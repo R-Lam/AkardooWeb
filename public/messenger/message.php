@@ -35,6 +35,7 @@
                     </div>
                     <div class="bubble_chat bubble_me">
                         <span>mensaje PTO normalito en el cual normalmente pasan caritas :D D: xdxdxd</span>
+                        <div class="bubble_check tooltipped" data-tooltip="Wachado" data-position="left"><i class="material-icons messages_checked">check</i></div>
                     </div>
                     <!-- Ultimo mensaje -->
                     <span class="chat_viewed right">Enviado a las 14:06 el 16/10/2017</span>

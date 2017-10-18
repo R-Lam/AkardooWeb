@@ -11,7 +11,6 @@
                 <a class="text-lighten-4 right" href="#!">Revisiones </a>
                 <a class="text-lighten-4 right" href="#!">Ayuda y soporte | </a>
                 <a class="text-lighten-4 right" href="/public/legal.php">Términos | </a>
-
             </div>
         </div>
     </div>

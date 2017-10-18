@@ -36,7 +36,7 @@
                 <span style="float:left"><img class="avatar-menu" src="/img/avatars/blog_face.png"></span>
                 <li><a href="/public/profile.php">MegaZeroxs</a></li>
                 <li><a href="/public/index.php" class="tooltipped" data-position="bottom" data-tooltip="Inicio"><i class="material-icons">home</i></a></li>
-                <li><a href="/public/messenger/message.php" class="tooltipped" data-position="bottom" data-tooltip="Soporte/Mensajes"><i class="material-icons">forum</i></a></li>
+                <li><a href="/public/messenger/" class="tooltipped" data-position="bottom" data-tooltip="Soporte/Mensajes"><i class="material-icons">forum</i></a></li>
                 <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Editar perfil"><i class="material-icons">settings</i></a></li>
                 <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="Salir"><i class="material-icons">exit_to_app</i></a></li>
             </ul>
